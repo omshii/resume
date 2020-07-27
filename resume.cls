@@ -45,3 +45,15 @@
 	{\large \href{mailto:#2}{#2} $\cdot$ \url{#3} $\cdot$ \url{#4} $\cdot$ \url{#5}}
 \end{center}
 }
+
+\newcommand\resection[1]{
+	\vspace*{3pt}
+	\hspace*{-40pt}
+	{\scshape\raggedright\large{#1}}\\
+	\vspace*{-20pt}\\
+    	{\hspace*{-25pt} \hrulefill}\\
+}
+
+\newcommand\resubsection[2]{
+	{\textbf{#1}\hfill #2} \\
+}
