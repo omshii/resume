@@ -55,5 +55,9 @@
 }
 
 \newcommand\resubsection[2]{
-	{\textbf{#1}\hfill #2} \\
+	{\textbf{#1}\hfill #2}
+}
+
+\newcommand\enresection{
+	\vspace{10pt}
 }
