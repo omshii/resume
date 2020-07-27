@@ -2,7 +2,7 @@
 \ProvidesClass{resume}[6/6/2013 custom CV class]
 \LoadClass{article}
 \RequirePackage{titlesec}
-\RequirePackage{fullpage}
+\RequirePackage[cm]{fullpage}
 \RequirePackage{hyperref}
 \titleformat{\section}       % Customise the \section command 
 {\normalsize\scshape\raggedright} % Make the \section headers large (\Large),
@@ -55,9 +55,13 @@
 }
 
 \newcommand\resubsection[2]{
-	{\textbf{#1}\hfill #2}
+	{\textbf{#1}\hfill \textit{#2}}
 }
 
 \newcommand\enresection{
 	\vspace{10pt}
+}
+
+\newcommand\enresubsection{
+	\vspace{1pt}
 }
