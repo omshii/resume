@@ -1,5 +1,5 @@
 \documentclass[a4paper]{resume}
-\usepackage{hyperref}
+\usepackage{hyperref, enumitem}
 
 \input{glyphtounicode}
 \pdfgentounicode=1
@@ -7,6 +7,7 @@
 \begin{document}
 \vspace*{-20pt}
 
+\setlist[itemize]{leftmargin=*}
 \pagenumbering{gobble}
 
 %Name, Email, Linkedin, Github, Website
@@ -18,27 +19,32 @@
 \resubsection{Colgate University}{Expected Graduation: Spring 2024}
 \begin{itemize} \vspace{-5pt} \itemsep -2pt
 	\item B.A. Computer Science and Math
-	\item GPA: 3.76
+	\item GPA: 3.76/4.00
 	\item Relevant coursework: Introduction to Computer Systems, Calculus III, Systems Biology, Discrete Structures, Linear Algebra
 \end{itemize}
 \enresection
 
-\resection{Experience}
-\resubsection{Computer Science Research Assistant, Colgate University}{Dec 2020 - Present}
+\vspace{-3pt}
+
+\resection{Techical Skills}
+\textbf{Languages:} Java, Python, MATLAB, C, C++, SQL, HTML, CSS \\
+\textbf{Tools and Libraries:} Git, Docker, Numpy, Pandas, LaTeX, Android
+\enresection
+
+\resection{Technical Experience}
+\resubsection{Computer Science Research Assistant, Gember-Jacobson Lab, Colgate University}{Dec 2020 - Present}
 \begin{itemize} \vspace{-5pt} \itemsep -2pt
-	\item Working with Professor Aaron Gember-Jacobson on socially responsible internet routing.
 	\item Using Python for web scraping and analyzing data regarding net neutrality practices of internet service providers by applying aspect-based sentiment analysis.	
 \end{itemize}
 \enresubsection
-\resubsection{Computational Biology Research Assistant, Colgate University}{Dec 2020 - Present}
+\resubsection{Computational Biology Research Assistant, AyLab, Colgate University}{Dec 2020 - Present}
 \begin{itemize} \vspace{-5pt} \itemsep -2pt
-	\item Working with Professor Ahmet Ay on studying perfect and near-perfect adaptation in biological networks. 
 	\item Using MATLAB to computationally model and run stochastic simulations of cellular signaling networks. 
 \end{itemize}
 \enresubsection
 \resubsection{Freelance Developer and Designer, Multiple Companies}{Dec 2019 - Apr 2020}
 \begin{itemize} \vspace{-5pt} \itemsep -2pt
-	\item Worked with multiple companies as a developer+designer. Redesigned websites, logos, and other branding materials and wrote scripts for automation and analytics.
+	\item Redesigned websites, logos, and other branding materials and wrote scripts for automation and analytics.
 	\item Worked with Zogo Finance as a web developer to greatly increase user engagement and leads by adding custom invite pages, interactive forms, blogs, and other design tweaks, using WordPress/PHP.
 \end{itemize}
 \enresubsection
@@ -57,7 +63,7 @@
 \end{itemize}
 \enresection
 
-\resection{Projects}
+\resection{Independent Technical Projects}
 \resubsection{pykitables \hspace*{10pt} \href{https://github.com/omshii/pykitables}{github.com/omshii/pykitables}}{}
 \begin{itemize} \vspace{-5pt} \itemsep -2pt
 	\item A Python package to cleanly scrape tables from Wikipedia for data analysis. Created using Beautiful Soup.

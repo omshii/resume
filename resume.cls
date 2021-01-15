@@ -16,13 +16,14 @@
 
 \newcommand\resection[1]{
 	\vspace*{3pt}
-	\hspace*{-40pt}
+	\hspace*{-30pt}
 	{\scshape\raggedright\large{#1}}\\
 	\vspace*{-20pt}\\
     	{\hspace*{-25pt} \hrulefill}\\
 }
 
 \newcommand\resubsection[2]{
+	\hspace*{-15pt}
 	{\textbf{#1}\hfill \textit{#2}}
 }
 
