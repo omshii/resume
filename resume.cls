@@ -28,7 +28,7 @@
 }
 
 \newcommand\enresection{
-	\vspace{10pt}
+	\vspace{6pt}
 }
 
 \newcommand\enresubsection{
